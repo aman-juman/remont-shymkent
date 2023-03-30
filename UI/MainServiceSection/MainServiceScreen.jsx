@@ -46,7 +46,7 @@ const MainServiceScreen = () => {
                 <div className={styles.titleWrap}>
 
                     <h2>Мы ремонтируем</h2>
-                    <p>ТОЛЬКО КАЧЕСТВЕННЫЕ ЗАПЧАСТИ И ГАРАНТИЯ НА РАБОТЫ И ЗАПЧАСТИ</p>
+                    <p>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО КАЧЕСТВЕННЫЕ ЗАПЧАСТИ. ДАЁМ ГАРАНТИЮ НА РАБОТЫ И ЗАПЧАСТИ НА 1 ГОД</p>
                 </div>
                 <div className={styles.listService}>
                     {
