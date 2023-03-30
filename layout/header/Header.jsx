@@ -14,18 +14,6 @@ const Header = () => {
         <header className={styles.header}>
             <div className={`${styles.topBar} container`}>
                 <Logo className={styles.logo}/>
-
-                {/*<div className={styles.topBar}>*/}
-                {/*    <div className="container">*/}
-                {/*        <div className={styles.row}>*/}
-                {/*            <div className={styles.button}>*/}
-                {/*                <MyButton></MyButton>*/}
-                {/*            </div>*/}
-                {/*            <Logo className={styles.logo} />*/}
-                {/*            <CallBlock />*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
                 <Navbar/>
             </div>
         </header>

@@ -10,15 +10,15 @@ import Link from "next/link";
 const dataBase = {
     contacts: [
         {
-            title: "+7 (777) 777-77-77",
+            title: "+7 (707) 167-16-82",
             description: "Круглосуточно",
-            href: "tel:+77766070070",
+            href: "tel:+77071671682",
             icon: <PhoneIcon />
         },
         {
-            title: "г. Шымкент, мкр Акжайык б/н",
+            title: "г. Шымкент, мкр Акжайык ул.Мынбаев 69",
             description: "Мы находимся",
-            href: "https://goo.gl/maps/JMBfpE2t29g42yBt8",
+            href: "https://goo.gl/maps/zL9zSc2u5ERrihNH6",
             icon: <LocationIcon />
         }
     ],

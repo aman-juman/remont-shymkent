@@ -42,8 +42,8 @@ const MainServiceScreen = () => {
             <div className="container">
                 <div className={styles.titleWrap}>
 
-                    <h2>Наши предложении</h2>
-                    <p>Мастер приедет к вам в удобное время, бесплатно продиагностирует поломку и назовет точную цену ремонта</p>
+                    <h2>Мы ремонтируем</h2>
+                    <p>ТОЛЬКО КАЧЕСТВЕННЫЕ ЗАПЧАСТИ И ГАРАНТИЯ НА РАБОТЫ И ЗАПЧАСТИ</p>
                 </div>
                 <div className={styles.listService}>
                     {
@@ -67,7 +67,7 @@ const MainServiceScreen = () => {
                                         ))
 
                                     }
-                                    <div className={styles.button}>
+                                    <div className={styles.buttons}>
                                         <MyButton
                                             href="#"
                                             icon={false}

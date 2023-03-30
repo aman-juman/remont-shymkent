@@ -1,3 +1,4 @@
+@import "styles/screen";
 .section{
   padding: 100px 0;
   //background: var(--white);
@@ -30,12 +31,31 @@
       border: 1px solid var(--semiAqua);
       overflow: hidden;
 
+      @include medium{
+        grid-template-columns: 1fr 1fr;
+      }
+      @include tablet{
+        grid-template-columns: 1fr;
+      }
+
+
       &Item{
         border: 1px solid #d4e3e6;
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 15px;
         padding: 40px 30px;
+
+        @include large{
+          padding: 20px 10px;
+        }
+
+        @include tablet{
+          grid-template-columns: 1fr;
+          justify-content: center;
+          justify-items: center;
+          text-align: center;
+        }
 
         .icon{
           width: 100px;

@@ -1,6 +1,10 @@
-@import "../../styles/screen";
+@import "styles/screen";
 .wrap{
   position: relative;
+
+  @include tablet{
+    display: none;
+  }
 }
 .content{
   position: absolute;
@@ -9,10 +13,22 @@
 
   display: flex;
   gap: 50px;
+  @include large{
+    gap: 10px;
+  }
+
+  @include medium{
+    position: static;
+  }
 
 
   .list{
     display: flex;
+    width: 100%;
+
+    @include medium{
+      justify-content: space-between;
+    }
 
     &Item{
       width: 300px;
@@ -20,6 +36,18 @@
       display: flex;
       flex-direction: column;
       color: var(--white);
+
+
+      @include large{
+        max-width: 300px;
+        width: 100%;
+      }
+      @include tablet{
+        //width: 500px;
+
+      }
+
+
 
       &Icon{
         margin-bottom: 15px;
@@ -44,6 +72,10 @@
     height: 60px;
     align-self: flex-end;
     margin-bottom: 30px;
+
+    @include medium{
+      display: none;
+    }
 
 
     &Icon{

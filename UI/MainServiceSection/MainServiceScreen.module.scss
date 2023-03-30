@@ -58,6 +58,15 @@
         height: 100%;
       }
 
+      p{
+        font-size: 20px;
+        font-weight: 600;
+        background: var(--primary);
+        color: var(--white);
+        width: fit-content;
+        padding: 5px 20px 5px 5px;
+      }
+
       &Title{
         font-size: 28px;
         font-weight: 600;
@@ -102,10 +111,17 @@
         }
 
       }
-      .button{
+      .buttons{
         display: flex;
+        //flex-wrap: wrap;
         justify-content: center;
         gap: 5px;
+
+
+        @include mobile{
+          flex-wrap: wrap;
+        }
+
       }
     }
   }

@@ -11,8 +11,8 @@
     display: flex;
     justify-content: space-between;
     @include medium{
-      position: static;
-      //background: rgba(250, 248, 248, 0.5);
+      justify-content: center;
+      margin-top: 80px;
     }
 
 
@@ -95,6 +95,11 @@
     gap: 10px;
     padding: 0 15px;
 
+    @include large{
+      gap: 3px;
+      padding: 0 5px;
+    }
+
 
     .listItem{
       list-style: none;
@@ -110,10 +115,14 @@
       border: 3px solid transparent;
       padding: 10px 20px;
 
+      @include large{
+        padding: 5px 10px;
+      }
       *{
         font-family: 'Oswald', 'sans-serif';
         font-size: 16px;
         font-weight: 500;
+
 
       }
 
