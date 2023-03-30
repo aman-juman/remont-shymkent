@@ -1,0 +1,91 @@
+@import "../../styles/screen";
+.section{
+  height: 100%;
+  width: 100%;
+  padding: 250px 0;
+  position: relative;
+  background: linear-gradient(90.18deg, rgba(25, 43, 84, 0.9) 24.65%, rgba(0, 0, 0, 0.1) 74.73%), url("/mainScreenImg.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .wrap{
+
+
+    .content{
+      position: relative;
+
+      .settingIcon{
+        position: absolute;
+        right: 100px;
+        top: 100px;
+        opacity: 0.3;
+        animation: rotate infinite 30s;
+      }
+
+
+      &Title{
+        font-size: 64px;
+        font-weight: 600;
+        color: var(--white);
+        text-transform: uppercase;
+
+        span{
+          font-size: 64px;
+          font-weight: 600;
+          text-transform: uppercase;
+          color: var(--primary);
+
+        }
+      }
+      &List{
+        display: flex;
+        gap: 50px;
+
+
+        &Item{
+          list-style: none;
+          font-size: 22px;
+          font-weight: 600;
+          color: var(--white);
+          text-transform: uppercase;
+
+
+        }
+      }
+      .row{
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        span{
+          font-family: "Nunito", "sans-serif";
+          color: var(--semiWhite);
+          font-size: 14px;
+
+        }
+
+      }
+    }
+  }
+
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(-180deg);
+  }
+  0%{
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+
+
+

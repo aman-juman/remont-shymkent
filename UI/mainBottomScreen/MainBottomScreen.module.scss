@@ -1,0 +1,77 @@
+@import "../../styles/screen";
+.wrap{
+  position: relative;
+}
+.content{
+  position: absolute;
+  left: 0;
+  top: -100px;
+
+  display: flex;
+  gap: 50px;
+
+
+  .list{
+    display: flex;
+
+    &Item{
+      width: 300px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      color: var(--white);
+
+      &Icon{
+        margin-bottom: 15px;
+        height: 60px;
+      }
+      &Title{
+        font-size: 46px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      &Description{
+        font-size: 16px;
+        font-weight: 200;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .team{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+    align-self: flex-end;
+    margin-bottom: 30px;
+
+
+    &Icon{
+      background: var(--primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    &Content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+
+      &Label{
+        font-size: 16px;
+        font-weight: 200;
+        color: var(--gray);
+
+      }
+      &Title{
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+      }
+    }
+  }
+}

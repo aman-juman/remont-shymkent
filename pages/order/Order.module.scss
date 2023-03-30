@@ -1,0 +1,22 @@
+.wrap{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background: beige;
+
+  .form{
+    width: 800px;
+    height: 600px;
+    display: grid;
+    background: aqua;
+    align-content: start;
+    justify-content: center;
+
+    gap: 20px;
+
+    input{
+      width: 300px;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://remont-shymkent.kz
+
+# Sitemaps
+Sitemap: https://remont-shymkent.kz/sitemap.xml

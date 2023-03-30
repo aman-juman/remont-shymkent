@@ -1,0 +1,84 @@
+[debug] [2023-01-04T18:21:12.118Z] ----------------------------------------------------------------------
+[debug] [2023-01-04T18:21:12.120Z] Command:       /home/aman/.nvm/versions/node/v18.12.1/bin/node /home/aman/.nvm/versions/node/v18.12.1/bin/firebase init hosting
+[debug] [2023-01-04T18:21:12.120Z] CLI Version:   11.19.0
+[debug] [2023-01-04T18:21:12.120Z] Platform:      linux
+[debug] [2023-01-04T18:21:12.120Z] Node Version:  v18.12.1
+[debug] [2023-01-04T18:21:12.121Z] Time:          Thu Jan 05 2023 00:21:12 GMT+0600 (East Kazakhstan Time)
+[debug] [2023-01-04T18:21:12.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-04T18:21:12.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-04T18:21:12.125Z] > authorizing via signed-in user (alamanshogun@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/aman/Desktop/WORK/PROJECTS/usite.store
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-04T18:21:31.182Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-01-04T18:21:31.972Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-01-04T18:21:31.972Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project usite-be58b (usite) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] i  Detected a .git folder at /home/aman/Desktop/WORK/PROJECTS/usite.store 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=15688898&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-01-04T18:31:47.595Z] ----------------------------------------------------------------------
+[debug] [2023-01-04T18:31:47.596Z] Command:       /home/aman/.nvm/versions/node/v18.12.1/bin/node /home/aman/.nvm/versions/node/v18.12.1/bin/firebase init hosting
+[debug] [2023-01-04T18:31:47.597Z] CLI Version:   11.19.0
+[debug] [2023-01-04T18:31:47.597Z] Platform:      linux
+[debug] [2023-01-04T18:31:47.597Z] Node Version:  v18.12.1
+[debug] [2023-01-04T18:31:47.597Z] Time:          Thu Jan 05 2023 00:31:47 GMT+0600 (East Kazakhstan Time)
+[debug] [2023-01-04T18:31:47.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-04T18:31:47.602Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-04T18:31:47.602Z] > authorizing via signed-in user (alamanshogun@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/aman/Desktop/WORK/PROJECTS/usite.store
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-04T18:31:49.170Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-01-04T18:31:49.950Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-01-04T18:31:49.950Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project usite-be58b (usite) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] i  Detected a .git folder at /home/aman/Desktop/WORK/PROJECTS/usite.store 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=66784578&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...

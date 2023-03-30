@@ -1,0 +1,74 @@
+@import "./styles/screen";
+
+.show{
+  display: none;
+  @include tablet{
+    display: block;
+
+  }
+}
+.whatsapp{
+  display: block;
+}
+.wrap{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 99;
+}
+.panel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 60px;
+  background: #1bc412;
+  position: relative;
+
+  &Item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    span{
+      font-family: 'Montserrat', 'sans-serif';
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--white);
+    }
+  }
+
+  &:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -3px;
+    width: 2.5rem;
+    height: 150%;
+    background: linear-gradient(90deg, rgba(255, 252, 252, 0.2), rgba(255, 252, 252, 0.7));
+    transform: translateX(-4em) skewX(-45deg);
+    animation: glareAnimation 4s infinite linear;
+  }
+  &:hover:before{
+    animation:none;
+  }
+
+  svg{
+    cursor: pointer;
+    animation: 2s infinite linear move;
+
+  }
+}
+@keyframes glareAnimation {
+  0%, 10%, 15%, 20%, 25%, 30%, 35%, 40%, 45%, 50%, 75%{
+    transform: translateX(-10em) skewX(-45deg);
+  }
+  100%{
+    transform: translateX(40em) skewX(-45deg);
+  }
+}

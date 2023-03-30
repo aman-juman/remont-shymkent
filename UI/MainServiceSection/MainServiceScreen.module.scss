@@ -1,0 +1,113 @@
+@import "styles/screen";
+.section{
+  margin: 50px 0;
+
+
+  .titleWrap{
+    text-align: center;
+    h2{
+      font-size: 40px;
+      font-weight: 600;
+
+    }
+    p{
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--gray);
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .listService{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 22px;
+    gap: 30px;
+    position: relative;
+
+    @include large{
+      grid-template-columns: 1fr;
+      gap: 30px;
+      justify-items: center;
+    }
+    @include mobile{
+      padding: 0 15px;
+    }
+
+
+    &Item{
+      width: 360px;
+      height: 470px;
+      border: 1px solid rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 25px;
+      box-shadow: 10px 10px 5px rgba(205,26,118,0.1);
+
+      @media (max-width: #{1270px}){
+        height: 570px;
+      }
+      @include large{
+        height: 500px;
+        max-width: 450px;
+        width: 100%;
+      }
+      @include mobile{
+        height: 100%;
+      }
+
+      &Title{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: var(--black);
+
+        @include large{
+          text-align: center;
+        }
+        @include mobile{
+          font-size: 18px;
+          margin-bottom: 30px;
+        }
+
+      }
+    }
+    .listAdvantage{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+
+      &Item{
+        font-size: 15px;
+        font-weight: 400;
+        list-style: none;
+        position: relative;
+        @include mobile{
+          font-size: 13px;
+        }
+
+        &:before{
+          position: absolute;
+          top: 4px;
+          left: -20px;
+          display: block;
+          content: "";
+          width: 10px;
+          height: 10px;
+          border-radius: 10px;
+          background: var(--primary);
+        }
+
+      }
+      .button{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+      }
+    }
+  }
+}
+
