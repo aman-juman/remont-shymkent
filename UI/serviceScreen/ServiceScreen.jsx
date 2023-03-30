@@ -3,16 +3,13 @@ import Image from "next/image";
 import img1 from "./images/serviceImg1.jpg";
 import img2 from "./images/serviceImg2.jpg";
 import img3 from "./images/serviceImg3.jpg";
-import img4 from "./images/serviceImg4.jpg";
-import img5 from "./images/serviceImg5.jpg";
-import img6 from "./images/serviceImg6.jpg";
 import Link from "next/link";
 
 const data =[
     {
         title: "Кондиционер",
         description: "Вызов мастера и диагностика бесплатно",
-        href: "https://wa.me/77766070070?text=Меня%20интересует%20Прочистка%20канализации%20-Механическая%20прочистка%20труб",
+        href: "https://wa.me/77071671682?text=Меня%20интересует%20Ремонт%20Кондиционера",
         image: img1,
         price: "10 000",
         list: ["Ремонт или установка", "Заправка фреона", "Замена деталей", "Ремонт датчиков", "Ремонт любой сложности"]
@@ -20,7 +17,7 @@ const data =[
     {
         title: "Стиральная машина",
         description: "Вызов мастера и диагностика бесплатно",
-        href: "https://wa.me/77766070070?text=Меня%20интересует%20Прочистка%20канализации%20-Механическая%20прочистка%20труб",
+        href: "https://wa.me/77071671682?text=Меня%20интересует%20Ремонт%20Стиральной%20машины",
         image: img2,
         price: "5 000",
         list: ["Ремонт или установка", "Ремонт деталей", "Замена деталей", "Ремонт датчиков", "Ремонт любой сложности"]
@@ -28,7 +25,7 @@ const data =[
     {
         title: "Холодильник",
         description: "Вызов мастера и диагностика бесплатно",
-        href: "https://wa.me/77766070070?text=Меня%20интересует%20Прочистка%20канализации%20-Механическая%20прочистка%20труб",
+        href: "https://wa.me/77071671682?text=Меня%20интересует%20Ремонт%20Холодильника",
         image: img3,
         price: "6 000",
         list: ["Ремонт или установка", "Заправка фреона", "Замена деталей", "Ремонт датчиков", "Ремонт любой сложности"]
@@ -80,25 +77,6 @@ const ServiceScreen = () => {
                     }
 
                 </div>
-
-
-                {/*<div className={styles.content}>*/}
-                {/*    <div className={styles.top}>*/}
-                {/*        <h5 className={styles.title}>{dataBase.title}</h5>*/}
-                {/*        <p className={styles.description}>{dataBase.description}</p>*/}
-                {/*    </div>*/}
-                {/*    <div className={styles.list}>*/}
-                {/*        {*/}
-                {/*            dataBase.list.map(({title, description, icon}, i) => (*/}
-                {/*                <div key={i} className={styles.listItem}>*/}
-                {/*                    <div className={styles.listItemIcon}>{icon}</div>*/}
-                {/*                    <div className={styles.listItemTitle}>{title}</div>*/}
-                {/*                    <div className={styles.listItemDescription}>{description}</div>*/}
-                {/*                </div>*/}
-                {/*            ))*/}
-                {/*        }*/}
-                {/*    </div>*/}
-                {/*</div>*/}
             </div>
         </section>
     );

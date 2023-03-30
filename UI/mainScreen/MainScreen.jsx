@@ -1,14 +1,10 @@
 import styles from "./MainScreen.module.scss";
-import Card from "../../components/card/Card";
-import Image from "next/image";
 import MyButton from "../../components/button/MyButton";
-import CallOrder from "../../components/callOrder/CallOrder";
-import img from "/public/mainScreenImg.png";
 import SettingIcon from "/public/setting.svg";
 
 const dataBase = {
-    title: "Прочистка канализации\n",
-    list: ["Холодильник", "Кондиционер", "Стиральная машина"],
+    title: "Ремонт и Установка",
+    list: ["Холодильника", "Кондиционера", "Стиральной машины"],
     description: "в Шымкенте и Туркестанской области"
 }
 const MainScreen = () => {
@@ -32,7 +28,7 @@ const MainScreen = () => {
                         </ul>
                         <div className={styles.row}>
                             <MyButton  />
-                            <span>Приедем к Вам через 20 минут, после звонка!</span>
+                            <span>Приедем к Вам через 30 минут, после звонка!</span>
                         </div>
 
                         <div className={styles.settingIcon}>

@@ -112,7 +112,7 @@ const SliderScreen = () => {
                                             <div className={styles.button}>
                                                 <MyButton
                                                     text="Связаться с мастером"
-                                                    href={`https://wa.me/77024343191?text=Меня%20интересует%20`}
+                                                    href={`https://wa.me/77071671682?text=Я%20хочу%20вызвать%20мастера`}
                                                 />
                                             </div>
                                         </motion.div>

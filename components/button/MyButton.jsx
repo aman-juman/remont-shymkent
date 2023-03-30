@@ -4,7 +4,7 @@ import cn from "classnames";
 import MasterIcon from "./masterIcon.svg";
 const MyButton = ({
                     children,
-                    href = "https://wa.me/77766070070?text=Мне%20нужна%20прочистка%20канализации",
+                    href = "https://wa.me/77071671682?text=Хочу%20вызвать%20мастера%20по%20ремонту",
                     round = false,
                     variant = "primary",
                     size = "medium",

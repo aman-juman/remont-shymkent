@@ -9,6 +9,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+
+  @include tablet{
+    background: linear-gradient(0deg, rgba(25, 43, 84, 0.9), rgba(25, 43, 84, 0.9)), url("/mainScreenImg.png");
+  }
+
   .wrap{
 
 
