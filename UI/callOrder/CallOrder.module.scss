@@ -7,7 +7,7 @@
   //z-index: -5;
 
   @include medium{
-    //height: 350px;
+    height: 450px;
   }
 
 
@@ -138,8 +138,8 @@
         }
 
         &:hover{
-          background: var(--secondary);
-          border: 3px solid var(--secondary);
+          background: var(--primary);
+          border: 3px solid var(--primary);
           color: var(--black);
         }
 

@@ -1,6 +1,7 @@
 import styles from "./MainScreen.module.scss";
 import MyButton from "../../components/button/MyButton";
 import SettingIcon from "/public/setting.svg";
+import Link from "next/link";
 
 const dataBase = {
     title: "Ремонт и Установка",
@@ -21,7 +22,9 @@ const MainScreen = () => {
                             {
                                 dataBase.list.map((item, i) =>(
                                     <li key={i} className={styles.contentListItem}>
-                                        {item}
+                                        <Link href="https://wa.me/77071671682?text=Хочу%20получить%20консультацию%20мастера">
+                                            {item}
+                                        </Link>
                                     </li>
                                 ))
                             }
