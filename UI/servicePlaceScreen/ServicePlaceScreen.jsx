@@ -42,7 +42,7 @@ const data = [
 ]
 const ServicePlaceScreen = () => {
     return (
-        <section id="service" className={styles.section}>
+        <section id="loan" className={styles.section}>
             {/*<div className="container">*/}
                 <div className={styles.list}>
                     {
