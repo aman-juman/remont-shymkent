@@ -48,6 +48,7 @@ export default function Home() {
     <Header />
     <MainScreen />
     <MainBottomScreen />
+    <CallOrder />
     <ServiceScreen />
     <AdvantageShortScreen />
     <AdvantageScreen />

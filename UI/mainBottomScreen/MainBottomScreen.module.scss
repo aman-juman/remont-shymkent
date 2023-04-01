@@ -1,7 +1,11 @@
 @import "styles/screen";
 .wrap{
   position: relative;
+  height: 150px;
 
+  @include medium{
+    height: 250px;
+  }
   @include tablet{
     display: none;
   }

@@ -10,11 +10,11 @@ const nav = [
     },
     {
         name: "Преимущества",
-        link: "/#result",
+        link: "/#advantages",
     },
     {
         name: "Рассрочка",
-        link: "/#clean",
+        link: "/#loan",
     },
     {
         name: "Консультация",

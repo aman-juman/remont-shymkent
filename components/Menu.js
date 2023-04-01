@@ -11,10 +11,10 @@ const Menu =(props) => {
             <Link passHref href="/#service" className="menu-item">
                 Наши услуги
             </Link>
-            <Link passHref href="/#result" className="menu-item">
+            <Link passHref href="/#advantages" className="menu-item">
                 Преимущества
             </Link>
-            <Link passHref href="/#clean" className="menu-item">
+            <Link passHref href="/#loan" className="menu-item">
                 Рассрочка
             </Link>
             <Link passHref href="/#callOrder" className="menu-item">

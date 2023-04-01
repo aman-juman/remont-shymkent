@@ -42,7 +42,7 @@ const dataBase = {
 }
 const AdvantageScreen = () => {
     return (
-        <section className={styles.section}>
+        <section id="advantages" className={styles.section}>
             <div className="container">
                 <div className={styles.titleWrap}>
 
