@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://usite.store',
+    siteUrl: 'https://remont-shymkent.kz',
     generateRobotsTxt: true, // (optional)
     // ...other options
 }

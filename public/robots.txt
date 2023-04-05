@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://usite.store
+Host: https://remont-shymkent.kz
 
 # Sitemaps
-Sitemap: https://usite.store/sitemap.xml
+Sitemap: https://remont-shymkent.kz/sitemap.xml
