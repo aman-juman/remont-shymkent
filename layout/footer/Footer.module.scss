@@ -6,6 +6,26 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  .developer{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    &Link{
+
+      span{
+        text-decoration: underline;
+        font-size: 18px;
+        margin: 0 5px;
+        color: var(--secondary);
+      }
+    }
+
+
+  }
+
   .content{
     display: grid;
     grid-template-columns: 1.3fr 1fr;

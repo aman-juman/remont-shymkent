@@ -140,6 +140,12 @@ const Footer = () => {
                           </div>
                       </div>
                   </div>
+                <div className={styles.developer}>
+                    <a href="https://www.ustudio.kz/" className={styles.developerLink}>
+                        Разработка сайта
+                        <span>U-studio</span>
+                    </a>
+                </div>
             </div>
         </footer>
     );
